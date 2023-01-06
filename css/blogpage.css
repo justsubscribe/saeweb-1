@@ -370,6 +370,17 @@
       display: none;
     }
     
+    .bgimage img{
+      display: block;
+      object-fit: cover;
+      width: auto;
+      height: 400px;
+    }
+    .bgimage{
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+    }
     .container4{
         padding-right: 25px;
       }
